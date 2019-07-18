@@ -40,13 +40,13 @@ function draw() {
 
     image(clefairy, myposX, myposY, mywidth, myheight);
 
-    // draw the enemy 
-    fill(255, 0, 0);
-    rect(enemyPosX, enemyPosY, enemywidth, enemyheight);
+    // // draw the enemy 
+    // fill(255, 0, 0);
+    // rect(enemyPosX, enemyPosY, enemywidth, enemyheight);
     
-    // draw myself
-    fill(0, 0, 255);
-    rect(myposX, myposY, 50, 50);
+    // // draw myself
+    // fill(0, 0, 255);
+    // rect(myposX, myposY, 50, 50);
 
     // if the LEFT_ARROW is pressed 
     if(keyIsDown(LEFT_ARROW)) {
